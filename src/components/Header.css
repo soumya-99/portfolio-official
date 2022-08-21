@@ -1,0 +1,6 @@
+.header-component {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0.5rem;
+}
