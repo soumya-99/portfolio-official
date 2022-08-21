@@ -17,8 +17,6 @@ function App() {
 	const themeStyles = {
 		backgroundColor: darkTheme ? "#333" : "#ccc",
 		color: darkTheme ? "#ccc" : "#333",
-		overflow: "scroll",
-		padding: "2rem",
 	}
 
 	const components = useRoutes([
