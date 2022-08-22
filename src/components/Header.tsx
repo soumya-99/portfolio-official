@@ -1,17 +1,17 @@
 import "./Header.css"
 
 interface HeaderProps {
-	changeThemeButton: () => void
+	changeTheme: any
 }
 
-function Header({ changeThemeButton }: HeaderProps) {
+function Header({ changeTheme }: HeaderProps) {
 	return (
 		<div className="header-component">
 			<div className="left-header">
 				<h1>Soumyadeep Mondal</h1>
 			</div>
 			<div className="right-header">
-				<button onClick={() => changeThemeButton}>Toggle Dark</button>
+				<button onClick={() => changeTheme()}>Toggle Dark</button>
 			</div>
 		</div>
 	)

@@ -13,7 +13,6 @@ import { useTheme, useThemeUpdate } from "./context/ThemeProvider"
 function App() {
 	const darkTheme = useTheme()
 	const toggleTheme = useThemeUpdate()
-
 	const themeStyles = {
 		backgroundColor: darkTheme ? "#333" : "#ccc",
 		color: darkTheme ? "#ccc" : "#333",
@@ -48,7 +47,7 @@ function App() {
 	return (
 		<div className="container">
 			<div className="box header">
-				<Header changeThemeButton={() => toggleTheme} />
+				<Header changeTheme={toggleTheme} />
 			</div>
 			<div className="box navbar-container">
 				<ul className="navbar">

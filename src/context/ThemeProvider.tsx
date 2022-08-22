@@ -1,7 +1,7 @@
 import { useContext, createContext, useState, ReactNode } from "react"
 
-const ThemeContext = createContext()
-const ThemeUpdateContext = createContext()
+const ThemeContext = createContext({})
+const ThemeUpdateContext = createContext({})
 
 export function useTheme() {
 	return useContext(ThemeContext)

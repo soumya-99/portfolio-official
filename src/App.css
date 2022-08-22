@@ -1,6 +1,6 @@
 .container {
 	display: grid;
-	grid-template: 5rem auto / 25fr 75fr;
+	grid-template: 5rem auto / 22fr 78fr;
 	grid-template-areas:
 		"header header"
 		"sidebar content";
