@@ -1,7 +1,7 @@
 import "./Header.css"
 
 interface HeaderProps {
-	changeTheme: any
+	changeTheme: () => void
 }
 
 function Header({ changeTheme }: HeaderProps) {
